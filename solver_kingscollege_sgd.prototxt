@@ -1,0 +1,16 @@
+net: "models/train_kingscollege.prototxt"
+#test_iter: 1000
+#test_interval: 4000
+test_initialization: false
+display: 20
+average_loss: 20
+base_lr: 0.00001
+lr_policy: "step"
+stepsize: 10000 #1600 # 80 epoch for KingsCollege (# train 1220, batchsize 64)
+gamma: 0.94     #0.9
+max_iter: 30000 #2000 # 100 epoch for KingsCollege (# train 1220, batchsize 64)
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 2500 #200 # 10 epoch for KingsCollege (# train 1220)
+snapshot_prefix: "snapshots/kingscollege_sgd"
+solver_mode: GPU
