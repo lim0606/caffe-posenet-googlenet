@@ -6,6 +6,8 @@
 3. train_kingscollege.prototxt is also copied from https://github.com/alexgkendall/caffe-posenet
 
 # Results
+1. King's College dataset
+  - Median error  1.88 m  and  2.33 degrees.
 
 # Reference
 1. [Alex Kendall, Matthew Grimes and Roberto Cipolla "PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization." Proceedings of the International Conference on Computer Vision (ICCV), 2015](http://mi.eng.cam.ac.uk/projects/relocalisation/)
